@@ -1,0 +1,77 @@
+.culture-img-wrap {
+  display: flex;
+}
+
+.culture-popup-coll-item {
+  pointer-events: none;
+}
+
+.about-hero {
+  opacity: 0;
+}
+
+.show-filters-btn,
+.hide-filters-btn {
+  opacity: 0;
+}
+
+.swiper-container {
+  overflow: visible;
+}
+
+.loader {
+  display: flex;
+}
+
+.page_code_wrap {
+  display: none;
+}
+
+.grid-wrapper {
+  display: none;
+}
+
+.tag-canvas {
+  pointer-events: auto;
+}
+
+/*/ Lenis Smooth Scroll /*/
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.ticker-wrap {
+  overflow: visible;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/*/ Code for Webflow Edidor /*/
+.w-editor {
+}
+
+/*/ Accordeon /*/
+.drawer-bottom {
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.w-editor .drawer-bottom {
+  grid-template-rows: 1fr;
+}
